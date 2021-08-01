@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 横幅いっぱい、高さ50px、背景色red */
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+}
+
+/* 横幅いっぱい、高さ500px、背景色orange */
+.main-visual {
+  width: 100%;
+  height: 500px;
+  background-color: orange;
+}
+
+/* 横960px、高さ1400px、中央寄せ */
+.main {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* 横230px、高さ1400px、背景色palegreen */
+.sideber1 {
+  width: 230px;
+  height: 1400px;
+  background-color: palegreen;
+}
+
+/* 横500px、高さ1400px、背景色limegreen */
+.blog {
+  width: 500px;
+  height: 1400px;
+  background-color: limegreen;
+}
+
+/* 横230px、高さ1400px、背景色palegreen */
+.sideber2 {
+  width: 230px;
+  height: 1400px;
+  background-color: palegreen;
+}
+
+/* 横幅いっぱい、高さ100px、背景色blur */
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+}

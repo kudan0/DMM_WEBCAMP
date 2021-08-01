@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* boxes：横600px　背景色yellow */
+.boxes {
+  width: 600px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+/* box1：横150px　高さ400px　背景色orange */
+.box1 {
+  width: 150px;
+  height: 400px;
+  background-color: orange;
+}
+
+/* box2：横250px　高さ400px　背景色red */
+.box2 {
+  width: 250px;
+  height: 400px;
+  background-color: red;
+}
+
+/* 疑問：記述順は影響あるのか */
