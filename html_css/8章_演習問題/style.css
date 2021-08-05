@@ -6,6 +6,7 @@
 
 .list {
   list-style: none;
+  width: 960px;
 }
 
 .list-item {
